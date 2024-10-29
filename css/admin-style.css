@@ -1,0 +1,49 @@
+ul.ac-tabs,ul.ac-tabs li{
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+}
+
+ul.ac-tabs li{
+    display: inline-block;
+    background-color: #C4C4C4;
+}
+
+ul.ac-tabs li:hover,ul.ac-tabs li.active{
+    background-color: #9A9A9A;
+    color: #E6E6E6;
+}
+
+ul.ac-tabs li a{
+    color: #000;
+    padding: 10px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul.ac-tabs li a:hover,ul.ac-tabs li.active a{
+    color: #E6E6E6;
+}
+.ac-output{
+    border: 1px solid #C4C4C4;
+    padding: 20px 20px;
+    min-height: 550px;
+}
+
+div.info{
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 20px 0px;
+}
+
+ul.steps li{
+    padding-bottom: 20px;
+}
+
+ul.steps li img{
+    display: block;
+    border: 2px solid #E6E6E6;
+}
